@@ -1,0 +1,9 @@
+you can put your own javascript files into the static folder
+things that do not change would be put here images, javascript, css files
+
+"""
+<script
+            type = "text/javascript"
+            src="{{url_for('static',filename='index.js')}}" 
+        ></script>
+"""
